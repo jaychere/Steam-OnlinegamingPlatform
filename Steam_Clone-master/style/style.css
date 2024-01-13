@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #171a21;
+  padding: 1.8em 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header img {
+  height: 3em;
+  margin-right: 2em;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+header ul li {
+  color: #ddd;
+  margin: 0 10px;
+}
+
+header div {
+  margin-right: 10%;
+}
+
+main .frontPage {
+  background-image: url(../media/stray_header.jpg);
+  background-position-x: -8em;
+  background-size: cover;
+  height: 68vh;
+}
+
+main .frontPage a {
+  background: linear-gradient(#7aa, #69a);
+  color: #eee;
+  font-size: small;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 3px 15px;
+  margin-top: 5px;
+  position: absolute;
+  left: 78vw;
+}
+
+main .frontPage nav {
+  background: linear-gradient(90deg, #3d628bee, #385d8bdd, #203779dd, #11236daa);
+  padding: .2em;
+  position: absolute;
+  margin-top: 2em;
+  left: 23vw;
+  display: flex;
+}
+
+main .frontPage nav ul {
+  margin: 0;
+  padding-left: 1em;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+main .frontPage nav ul li {
+  color: #eee;
+  font-size: 15px;
+  margin-right: 35px;
+}
+
+main .frontPage nav input {
+  background-color: #368d;
+  font-size: small;
+  line-height: .5;
+  color: #eee;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+main .frontPage nav input::placeholder {
+  color: #114;
+}
+
+main .frontPage nav input:focus {
+  outline: 1px solid #66c0f4;
+}
+
+main .frontPage nav input:hover {
+  outline: 1px solid #66c0f4;
+}
+
+main .firstSection {
+  background-color: #192b3d;
+  padding: 2em 5em;
+  display: flex;
+}
+
+main .firstSection .home_page_gutter {
+  display: flex;
+  flex-direction: column;
+}
+
+main .firstSection .home_page_gutter img {
+  height: 20vh;
+  width: 30vh;
+}
+
+main .firstSection .home_page_gutter a {
+  color: #66c0f4;
+  text-decoration: none;
+  margin: 1px 0;
+}
+
+main .firstSection .home_page_gutter span {
+  color: #c6d4df;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+main .firstSection .home_page_gutter .gutter__block {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main .firstSection .principal {
+  width: 100%;
+  margin-left: 2em;
+}
+
+main .firstSection .principal h4 {
+  color: #eee;
+  text-transform: uppercase;
+}
+
+main .firstSection .principal .carousel .carousel-item img {
+  height: 50vh;
+  float: left;
+  box-shadow: 5px 3px 5px #000;
+}
+
+main .firstSection .principal .carousel .carousel-item .content {
+  background-image: url(../media/content_background.jpg);
+  height: 50vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main .firstSection .principal .carousel .carousel-item .content span {
+  color: #eee;
+}
+
+main .firstSection .principal .carousel .carousel-item .content .title {
+  font-size: 2.5em;
+  margin-left: 10px;
+}
+
+main .firstSection .principal .carousel .carousel-item .content .galery {
+  display: grid;
+  width: 90%;
+  height: 50%;
+  padding: 0;
+  margin-bottom: 1em;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+main .firstSection .principal .carousel .carousel-item .content .galery img {
+  width: 100%;
+  height: 100%;
+}
+
+main .firstSection .principal .carousel .carousel-item .content .status {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+main .firstSection .principal .carousel .carousel-item .content .price {
+  color: #66c0f4;
+  margin-left: 10px;
+  font-size: small;
+  text-decoration: none;
+}
+
+main .firstSection .principal .carousel .carousel-indicators {
+  bottom: -3em;
+}
+
+main .firstSection .principal .carousel .carousel-indicators button {
+  width: 15px;
+  height: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+main .firstSection .principal .carousel .carousel-control-prev {
+  justify-content: flex-start;
+  width: 4em;
+  margin: 10% 0;
+  background: linear-gradient(90deg, #222, transparent);
+}
+
+main .firstSection .principal .carousel .carousel-control-next {
+  justify-content: flex-end;
+  width: 4em;
+  margin: 10% 0;
+  background: linear-gradient(90deg, transparent, #222);
+}
+/*# sourceMappingURL=style.css.map */
